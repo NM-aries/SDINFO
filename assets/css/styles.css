@@ -1,0 +1,32 @@
+/* styles.css */
+
+@font-face {
+    font-family: 'Steam';
+    src: url('../fonts/Steam/Font.ttf');
+}
+
+.navbar{
+    font-family: 'Steam',sans-serif;
+}
+.hero {
+    position: relative;
+    background:linear-gradient(#926dee,  #2ba7ff); /* Background color for the hero section */
+    color: #fff; /* Text color */
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+
+    /* Create the wave bottom background */
+}
+
+.sdHero{
+    height: 400px;
+    background: url(../images/steamdeck.png);
+    background-size:  100%;
+    background-position: center;
+    background-repeat: no-repeat;;
+
+
+    
+}
